@@ -18,12 +18,12 @@
     [:script {:type "text/javascript"
               :src (str (add-context (str "/js/" filename)))}]))
 
-(defn base []
+(defn base [title]
   (hiccup/html
     "<!DOCTYPE html>"
     [:html
      [:head
-       [:title "Introduction to Git SCM"]
+       [:title title]
        (include-css "screen.css" "bootstrap.css")
        [:script {:type "text/javascript"}
          (str "var context='" (:context *request*) "';")]]

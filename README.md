@@ -1,6 +1,7 @@
 # gittalk
 
-FIXME
+An app for my presentation on Git using Clojure, AngularJS, and Bootstrap 3.0
+Page content is in Markdown format and loaded asynchronously into the page via AngularJS.
 
 ## Prerequisites
 
@@ -16,4 +17,4 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Brian Jesse

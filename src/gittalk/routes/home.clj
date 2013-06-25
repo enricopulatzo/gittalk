@@ -4,7 +4,7 @@
             [gittalk.util :as util]))
 
 (defn home-page []
-  (layout/base))
+  (layout/base "Introduction to Git"))
 
 (defn first-page []
   (layout/render "/md/1.md"))
